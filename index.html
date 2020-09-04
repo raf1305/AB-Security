@@ -13,6 +13,39 @@
 
 </head>
 <body>
+    <section id="ticker-section" class="container">
+        <div class="nav-title">
+
+            <div class="row">
+                <div class="col-12 col-lg-3 col-xl-3 ticker-section--logo">
+                    <img src="images/logo.png" alt="ASL" width="200px">
+                </div>
+    
+                <a  href="http://www.financialliteracybd.com/bn/index.php" >
+                    <img src="images/ja_korben_na_icon.png"  height="70" width="141" style="float:left; margin-right:100px;">
+                </a>
+    
+                <a href="https://dsebd.org/dse-mobile.php" >
+                    <img src="images/mobile_trade_icon.png"   height="70" width="141" style="float:left; margin-right:100px;">
+                </a>
+    
+                <a href="afnanulcoder@gmail.com" >
+                    <img src="images/mail_us_icon.png"   height="70" width="141" style="float:left; margin-right:100px;">
+                </a>
+    
+    
+            </div>
+
+        </div>
+        
+    </section>
+    
+    
+    
+    
+
+
+
     <section id="header-section">
         <nav class="navbar navbar-expand-lg navbar-light" style="z-index: 999; padding: 0;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,11 +53,13 @@
             </button>
             <div class="collapse navbar-collapse i-nav-bar" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-items active">
+                        <img class="nav-icon" src="images/home_icon.png" alt="ASL" width="13px">
+                        <a class="nav-item" href="home.html">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-items dropdown">
+                        <img class="nav-icon" src="images/about_us_icon.png" alt="ASL" width="13px">
+                        <a class="nav-item dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         About Us
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -33,58 +68,22 @@
                             <a class="dropdown-item" href="#">Missions & Visions</a>
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-items dropdown">
+                        <img class="nav-icon" src="images/services_icon.png" alt="ASL" width="13px">
+                        <a class="nav-item dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services
                         </a>
-                        <!-- *TODO uncomment later if necessary -->
-                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Sales and Trending(Online/Offline)</a>
-                            <a class="dropdown-item" href="#">Clearing Service</a>
-                            <a class="dropdown-item" href="#">DP Service</a>
-                            <a class="dropdown-item" href="#">Margin Facilities</a>
-                            <a class="dropdown-item" href="#">SMS & E-Statements Service</a>
-                            <a class="dropdown-item" href="#">Foreign & Institutional Broking Expertise</a>
-                        </div> -->
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Account Opening
-                        </a>
-                        <!-- *TODO uncomment later if necessary -->
-                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Single/Joint Account</a>
-                            <a class="dropdown-item" href="#">Limited Company</a>
-                            <a class="dropdown-item" href="#">Other</a>
-                        </div> -->
-                    </li>
-                    <!-- *TODO uncomment later if necessary -->
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Trading
-                        </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">In House Trading</a>
-                            <a class="dropdown-item" href="#">Telephonic Trading</a>
-                            <a class="dropdown-item" href="#">Online Trading</a>
-                        </div>
-                    </li> -->
-                    <!-- *TODO uncomment later if necessary -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        IPO
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">New IPO</a>
-                            <a class="dropdown-item" href="#">IPO Application</a>
-                            <a class="dropdown-item" href="#">IPO Result</a>
+                            <a class="dropdown-item" href="#">Account Opening</a>
+                            <a class="dropdown-item" href="#">IPO</a>
+                            <a class="dropdown-item" href="#">Fund widrawal</a>
+                            <a class="dropdown-item" href="#">DSE Mobile App</a>
+                            <a class="dropdown-item" href="#">CLient Guidelines</a>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href='{!! url('/branches'); !!}'>Branches <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-items dropdown">
+                        <img class="nav-icon" src="images/law_icon.png" alt="ASL" width="13px">
+                        <a class="nav-item dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Laws & Regulations
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -97,117 +96,20 @@
                             target="_blank">Securities Related Rules</a>
 
                         </div>
-                    </li> 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Clients' Guidelines <span class="sr-only">(current)</span></a>
                     </li>               
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Downloads <span class="sr-only">(current)</span></a>
-                    </li> 
-                    <li class="nav-item">
-                        <!-- <a class="nav-link" href="#">Notices & Circulars <span class="sr-only">(current)</span></a> -->
-                        <a class="nav-link" href="#">Notices <span class="sr-only">(current)</span></a>
+                    <li class="nav-items active">
+                        <img class="nav-icon" src="images/notice_ico.png" alt="ASL" width="13px">
+                        <a class="nav-item" href="#">Notices <span class="sr-only">(current)</span></a>
                     </li>
-                                
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Contact Us
-                        </a>
-                        <!-- *TODO uncomment later if necessary -->
-                        <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Office Contact</a>
-                            <a class="dropdown-item" href="#">Trader Contact</a>
-                            <a class="dropdown-item" href="#">Query</a>
-                        </div> -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
+                    <li class="nav-items active">
+                        <img class="nav-icon" src="images/faq_ico.png" alt="ASL" width="13px">
+                        <a class="nav-item"
                         href="https://www.dsebd.org/dse_faq.php" target="_blank">FAQ <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdownMenuLink"
-                        data-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false">
-                            Register
-                        </a>
-                        <div class="dropdown-menu"
-                            aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item"
-                            href="#">Register</a>
-                            <a class="dropdown-item"
-                            href="#">Log In</a>
-                        </div>
-                    </li>
+                    
                 </ul>
             </div>
         </nav>
-    </section>
-    <section id="ticker-section" class="container">
-        <div class="row">
-            <div class="col-12 col-lg-3 col-xl-3 ticker-section--logo">
-                <img src="images/logo.png" alt="ASL" width="200px">
-            </div>
-            <!-- <div class="col-12 col-lg-9 col-xl-9 ticker-section--ticker">
-                <div class="marquee">
-                    <div class="ticker-main-div">
-                        <div class="ticker--item ticker--item__up">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__up">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__down">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>-0.9 &nbsp; -20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__normal">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__up">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__down">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__down">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__up">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__normal">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                        <div class="ticker--item ticker--item__up">
-                            <div>ABCDEFGH &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50.5</div>
-                            <div>0.9 &nbsp; 20.8%</div>
-                        </div>
-                    </div>  
-                </div>
-                <div style="display: flex; flex-direction: column;">
-                    <button class="ticker--control--button" id="ticker-rb">
-                        <i class="fas fa-angle-right"></i>
-                    </button>
-                    <button class="ticker--control--button" onclick="togglemarquee()">
-                        <i class="fas fa-pause"></i>
-                    </button>
-                    <button class="ticker--control--button" id="ticker-lb">
-                        <i class="fas fa-angle-left"></i>
-                    </button>
-                </div>
-            </div> -->
-        </div>
     </section>
 
     <section id="carousel-section" class="container" >
